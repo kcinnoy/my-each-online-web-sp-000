@@ -1,14 +1,14 @@
 def my_each(collection)
   if block_given?
-  i = 0
+  counter = 0
 
-  while i < array.length
-    yield array[i]
-    i = i + 1
-  end   
+  while counter < collection.length
+    yield collection[counter]
+    counter +=1
+  end
     array
   else
-   puts "Hey! No block was given!"
+   puts "No block was given!"
   end
 end
 
