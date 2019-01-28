@@ -7,7 +7,6 @@ def my_each(collection)
     yield puts collection[counter]
     return collection[counter]
   end
-    array
   else
    puts "No block was given!"
   end
