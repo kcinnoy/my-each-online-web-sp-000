@@ -4,8 +4,8 @@ def my_each(collection)
 
   while counter < collection.length
     counter +=1
-    yield puts collection[counter]
-    return collection[counter]
+    yield  collection[counter]
+
   end
   else
    "No block was given!"
