@@ -8,7 +8,7 @@ def my_each(collection)
     return collection[counter]
   end
   else
-   puts "No block was given!"
+   "No block was given!"
   end
 end
 
